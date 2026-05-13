@@ -54,7 +54,7 @@ class WebSocketService extends ChangeNotifier {
         onError: _onError,
         onDone: _onDone,
       );
-      _setConnectionState(WsConnectionState.connected);
+      
     } catch (e) {
       _errorMessage = e.toString();
       _setConnectionState(WsConnectionState.error);
