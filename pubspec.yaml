@@ -14,7 +14,7 @@ dependencies:
   shared_preferences: ^2.2.2
   fl_chart: ^0.66.2
   intl: ^0.19.0
-  vibration: ^1.8.4
+  vibration: ^3.1.8
   audioplayers: ^5.2.1
   wakelock_plus: ^1.1.4
 
